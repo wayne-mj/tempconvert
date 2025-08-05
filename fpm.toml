@@ -16,4 +16,5 @@ test = false
 implicit-typing = false
 implicit-external = false
 source-form = "free"
-
+[dev-dependencies]
+VerySimpleTestFramework.git = "https://github.com/wayne-mj/VerySimpleTestFramework.git"
