@@ -27,6 +27,9 @@ contains
     real              :: k
 
     k = c + 273.15
+    if (k .le. 0.0) then
+      k = 0.0
+    end if
   end function
 
   ! Kelvin to Celsius
